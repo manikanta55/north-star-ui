@@ -1,2 +1,2 @@
 # resort-app
-It just for Practise
+Just for Practise
