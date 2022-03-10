@@ -1,21 +1,30 @@
 body{        
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .container{
     width: 80%;
-    margin: 0 auto; /* Center the DIV horizontally */
+    margin: 0 auto; 
     margin-top: 20px;
 }
-.fixed-header, .fixed-footer{
+.fixed-header {
     width: 100%;
-    position: fixed;        
+    position: relative;        
     background: #333;
     padding: 10px 0;
     color: #fff;
 }
+
+.fixed-footer{
+    width: 100%;       
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    position: fixed;
+}
+
 .fixed-header{
-    top: 0;
+    top: 0px;
 }
 .fixed-footer{
     bottom: 0;

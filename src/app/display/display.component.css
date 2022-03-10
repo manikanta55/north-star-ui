@@ -1,6 +1,15 @@
 .container{
     width: 80%;
-    margin: 0 auto; /* Center the DIV horizontally */
-    /*margin-top: 20px;*/
-    display:contents;
+    position: relative;
+    display: contents;
+    background-color: aliceblue;
 }
+
+/* .try {
+    width: 1000px;
+    height: 1000px;
+    background: linear-gradient(135deg, black, white,red);
+    text-align: center;
+    color: red;
+    padding-top: 500px;
+} */

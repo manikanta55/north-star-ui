@@ -23,7 +23,7 @@ import { DisplayComponent } from './display/display.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatMenuModule,
-    MatGridListModule
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
